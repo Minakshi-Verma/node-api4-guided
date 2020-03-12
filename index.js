@@ -1,3 +1,5 @@
+require("dotenv").config(); // read from .env file located at the root of the project
+//and merge the key/value pairs into process.env
 const server = require('./api/server.js');
 //make the post be assigned by the server
 //heroku will place the .PORT environment value on their server
